@@ -38,6 +38,31 @@ var quotes = [
         "quote": "Whoa, whoa, whoa. There's still plenty of meat on that bone. Now you take this home, throw it in a pot, add some broth, a potato. Baby, you've got a stew going.",
         "source": "Carl Weathers",
         "size": 40
+    },
+    {
+        "quote":"Go to Heaven for the climate, Hell for the company.",
+        "source":"Mark Twain",
+        "size":60
+    },
+    {
+        "quote":"Well, Art is Art, isn't it? Still, on the other hand, water is water. And east is east and west is west and if you take cranberries and stew them like applesauce they taste much more like prunes than rhubarb does. Now you tell me what you know.",
+        "source":"Groucho Marx",
+        "size":30
+    },
+    {
+        "quote":"My fake plants died because I did not pretend to water them.",
+        "source":"Mitch Hedberg",
+        "size":44
+    },
+    {
+        "quote":"I love deadlines. I like the whooshing sound they make as they fly by.",
+        "source":"Douglas Adams",
+        "size":44
+    },
+    {
+        "quote":"Don't trust everything you read on the internets.",
+        "source":"Abraham Lincoln",
+        "size":60
     }
 ];
 
