@@ -7262,6 +7262,7 @@ header a.toolkit-link:hover {
   outline: none;
 }
 .poster .logo-wrapper {
+  pointer-events: none;
   position: absolute;
   width: 100%;
   z-index: 100;
