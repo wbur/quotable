@@ -160,7 +160,7 @@ $(function() {
     $themeButtons.on('click', function() {
         $themeButtons.removeClass().addClass('btn btn-default');
         $(this).addClass('btn-primary');
-        $poster.removeClass('poster-wbur poster-npr poster-onpoint poster-hearandnow poster-onlyagame poster-radioboston poster-modernlove poster-dearsugar poster-kindworld poster-magicpill poster-cognoscenti poster-commonhealth poster-artery poster-bostonomix poster-edify poster-politicker poster-remembrance-project')
+        $poster.removeClass('poster-wbur poster-npr poster-onpoint poster-hearandnow poster-onlyagame poster-radioboston poster-modernlove poster-dearsugar poster-kindworld poster-magicpill poster-cognoscenti poster-commonhealth poster-artery poster-bostonomix poster-edify poster-politicker poster-remembrance-project poster-seasonticket poster-freakout poster-circleround poster-geoffedgers')
         .addClass('poster-' + $(this).attr('id'));
     });
 
