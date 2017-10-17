@@ -7043,7 +7043,7 @@ header a.toolkit-link:hover {
   overflow: hidden;
 }
 .poster .logo-wrapper img {
-  width: 250px;
+  width: 275px;
 }
 .poster.poster-wbur .logo-wrapper img {
   width: 275px;
@@ -7051,6 +7051,9 @@ header a.toolkit-link:hover {
 .poster.poster-wbur .logo-wrapper .logo.logo-wbur {
   display: inline-block !important;
   border: none;
+}
+.poster.poster-npr .logo-wrapper img {
+  width: 200px;
 }
 .poster.poster-npr .logo-wrapper .logo.logo-npr {
   display: inline-block !important;
@@ -7168,6 +7171,42 @@ header a.toolkit-link:hover {
   border: none;
 }
 .poster.poster-remembrance-project .logo-wrapper .logo.logo-remembrance-project {
+  display: inline-block !important;
+  border: none;
+}
+.poster.poster-seasonticket {
+  background: #fbe8ba;
+}
+.poster.poster-seasonticket .logo-wrapper img {
+  width: 330px;
+}
+.poster.poster-seasonticket .logo-wrapper .logo.logo-seasonticket {
+  display: inline-block !important;
+  border: none;
+}
+.poster.poster-freakout {
+  background: url(../assets/freakout-bg.jpg) right bottom no-repeat #e75c5a;
+  color: #fff;
+}
+.poster.poster-freakout .logo-wrapper img {
+  width: 250px;
+}
+.poster.poster-freakout .logo-wrapper .logo.logo-freakout {
+  display: inline-block !important;
+  border: none;
+}
+.poster.poster-circleround {
+  background: url(../assets/circleround-bg.jpg) right bottom no-repeat #fef6c2;
+}
+.poster.poster-circleround .logo-wrapper .logo.logo-circleround {
+  display: inline-block !important;
+  border: none;
+}
+.poster.poster-geoffedgers {
+  background: #c0c1c2;
+  color: #000;
+}
+.poster.poster-geoffedgers .logo-wrapper .logo.logo-geoffedgers {
   display: inline-block !important;
   border: none;
 }
