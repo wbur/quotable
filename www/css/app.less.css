@@ -6892,15 +6892,6 @@ canvas {
 .content .poster-wrapper {
   width: 640px;
 }
-@media screen and (max-width: 991px) {
-  .content {
-    display: block;
-  }
-  .content .poster-wrapper,
-  .content .container {
-    display: block;
-  }
-}
 @media screen and (max-width: 767px) {
   .content .controls-wrapper {
     font-size: 250%;
@@ -7108,7 +7099,7 @@ header a.toolkit-link:hover {
   border: none;
 }
 .poster.poster-kindworld {
-  background: #fde522;
+  background: url(../assets/kindworld-bg.jpg) right bottom no-repeat #B4B3B7;
   color: #152731;
 }
 .poster.poster-kindworld .logo-wrapper .logo.logo-kindworld {
@@ -7207,6 +7198,13 @@ header a.toolkit-link:hover {
   color: #000;
 }
 .poster.poster-geoffedgers .logo-wrapper .logo.logo-geoffedgers {
+  display: inline-block !important;
+  border: none;
+}
+.poster.poster-endlessthread {
+  background: #35d2bb;
+}
+.poster.poster-endlessthread .logo-wrapper .logo.logo-endlessthread {
   display: inline-block !important;
   border: none;
 }

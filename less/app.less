@@ -37,15 +37,6 @@ canvas {
 		width: 640px;
 	}
 
-	@media screen and (max-width: @screen-sm-max){
-		display: block;
-
-		.poster-wrapper,
-		.container {
-			display: block;
-		}
-	}
-
 	@media screen and (max-width: @screen-xs-max){
 		.controls-wrapper {
 			font-size: 250%;
@@ -316,7 +307,7 @@ header {
 		}
 	}
 	&.poster-kindworld {
-		background: #fde522;
+		background: url(../assets/kindworld-bg.jpg) right bottom no-repeat #B4B3B7;
 		color: #152731;
 		.logo-wrapper {
 
@@ -456,7 +447,16 @@ header {
 			}
 		}
 	}
+	&.poster-endlessthread {
+		background: #35d2bb;
+		.logo-wrapper {
 
+			.logo.logo-endlessthread {
+				display: inline-block !important;
+				border: none;
+			}
+		}
+	}
 	&.sixteen-by-nine {
 		height: 360px;
 		padding: @grid-gutter-width;
